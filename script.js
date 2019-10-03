@@ -138,7 +138,6 @@ class DamaPiece{
 //     }
 // }
 
-
 class Board{
     // boardPieces;
     // turn;
