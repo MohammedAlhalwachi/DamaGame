@@ -1,0 +1,1 @@
+!function(){"use strict";("undefined"==typeof window?global:window).com.greensock.core.Animation.prototype.then=function(n){var e=this;return new Promise(function(o){var t=e.eventCallback("onComplete");e.eventCallback("onComplete",function(){t&&t.apply(this,arguments),n(),o()})})}}();
